@@ -1,0 +1,916 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+                "patterns": ["Hi there","Hey","Hola", "Hello", "Good day"],
+                "responses": ["Hello! What can I do for you?", "Hola! is there anything that I can help you with?", "Hi there, how can I help?"]
+               },
+               {"tag": "goodbye",
+                "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","byeeee","byee"],
+                "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+               },
+               {"tag": "thanks",
+                "patterns": ["Thanks", "Thank you", "That's helpful", "thanku", "Thankyou","Thanks for helping me","Thank you so much"],
+                "responses": ["Happy to help!", "I'm glad that I helped you!", "My pleasure"]
+               },
+               {"tag": "options",
+                "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+                "responses": ["I can help you to know about the Government Schemes", "Offering support finding Government Schemes..."]
+               },
+               {"tag": "how_are_u",
+                "patterns": [ "how r u","How are you", "How to do you do?","are you doing good?" ],
+                "responses": ["I am doing really great! How about you?"]
+               },
+               {"tag": "robot",
+                "patterns": ["robot?", "Who created you?", "Are you real?", "r u human?", "How do you work?" ],
+                "responses": ["I am a chatbot created using Artificial Intelligence. Hope so that answers..."]
+               },
+               {"tag": "name",
+                "patterns": ["What is your name?", "May I know your name?", "Who are you", "What's your name?", "Tell me your name","Tell me about yourself..." ],
+                "responses": ["My name is Sam, I am an ai chatbot, What can I do for you?"]
+               },
+               {"tag": "fine",
+                   "patterns": ["I am fine","I am great","I am doing great","fine","good","great"],
+                   "responses": ["That's great! What can I do for you?"]
+               },
+               {"tag": "bad",
+                   "patterns": ["I am sad","bad","worse","i am not well"],
+                   "responses": ["Sorry about that, Is there anything that I can help you with?"]
+               },
+
+            {
+
+            "tag": "Atal Pension Yojana",
+            "patterns": [
+                "Atal Pension Yojana",
+                "Pension",
+                "Is there any schemes related to Pension",
+                "Social Sector Scheme in relation to the Pension Sector.Mission is to create a universal social security system for all Indians, especially the poor, the under-privileged and the workers in the unorganised sector. APY is administered by Pension Fund Regulatory and Development Authority (PFRDA).",
+                "I want to know about Atal Pension Yojana",
+                "can you tell me about Atal Pension Yojana",
+                "what is Atal Pension Yojana"
+            ],
+            "responses": [
+                "Atal Pension Yojana. Social Sector Scheme in relation to the Pension Sector.Mission is to create a universal social security system for all Indians, especially the poor, the under-privileged and the workers in the unorganised sector. APY is administered by Pension Fund Regulatory and Development Authority (PFRDA)."
+            ]
+        },
+        {
+            "tag": "Bachat Lamp Yojana",
+            "patterns": [
+                "Bachat Lamp Yojana",
+                "Electricity",
+                "Is there any schemes related to Electricity",
+                "It is another social welfare schemes in India for Reduction in the cost of CFL (compact fluorescent lamps).The BLY  aims to incentivise households to use energy efficient CFL lightbulbs, by providing them at the same cost as incandescent bulbs. ",
+                "I want to know about Bachat Lamp Yojana",
+                "can you tell me about Bachat Lamp Yojana",
+                "what is Bachat Lamp Yojana"
+            ],
+            "responses": [
+                "Bachat Lamp Yojana. It is another social welfare schemes in India for Reduction in the cost of CFL (compact fluorescent lamps).The BLY  aims to incentivise households to use energy efficient CFL lightbulbs, by providing them at the same cost as incandescent bulbs. "
+            ]
+        },
+        {
+            "tag": "Central Government Health Scheme",
+            "patterns": [
+                "Central Government Health Scheme",
+                "Health",
+                "Is there any schemes related to Health",
+                "Complete medical care facilities to Government employees (Central) and their family members.The Central Government Health Scheme (CHGS) provides healthcare to the employees and pensioners of the Central Government that are enrolled under this scheme. It covers health care under different systems of medicine, ranging from allopathy and homeopathy to Ayurveda, Unani, Siddha, and Yoga.",
+                "I want to know about Central Government Health Scheme",
+                "can you tell me about Central Government Health Scheme",
+                "what is Central Government Health Scheme"
+            ],
+            "responses": [
+                "Central Government Health Scheme. Complete medical care facilities to Government employees (Central) and their family members.The Central Government Health Scheme (CHGS) provides healthcare to the employees and pensioners of the Central Government that are enrolled under this scheme. It covers health care under different systems of medicine, ranging from allopathy and homeopathy to Ayurveda, Unani, Siddha, and Yoga."
+            ]
+        },
+        {
+            "tag": "Deendayal Disabled Rehabilitation Scheme",
+            "patterns": [
+                "Deendayal Disabled Rehabilitation Scheme",
+                "Social Justice",
+                "Is there any schemes related to Social Justice",
+                "Welfare schemes in India:- Decreasing disparity related to opportunities, equity, social justice and empowerment of persons with disabilities.The approach of this Scheme is to provide financial assistance to voluntary organizations to make available the whole\nrange of services necessary for rehabilitation of persons with disabilities including early intervention, development of\ndaily living skills, education, skill-development oriented towards employability, training and awareness generation.",
+                "I want to know about Deendayal Disabled Rehabilitation Scheme",
+                "can you tell me about Deendayal Disabled Rehabilitation Scheme",
+                "what is Deendayal Disabled Rehabilitation Scheme"
+            ],
+            "responses": [
+                "Deendayal Disabled Rehabilitation Scheme. Welfare schemes in India:- Decreasing disparity related to opportunities, equity, social justice and empowerment of persons with disabilities.The approach of this Scheme is to provide financial assistance to voluntary organizations to make available the whole\nrange of services necessary for rehabilitation of persons with disabilities including early intervention, development of\ndaily living skills, education, skill-development oriented towards employability, training and awareness generation."
+            ]
+        },
+        {
+            "tag": "Deen Dayal Upadhyaya Gram Jyoti Yojana",
+            "patterns": [
+                "Deen Dayal Upadhyaya Gram Jyoti Yojana",
+                "Rural Power Supply",
+                "Is there any schemes related to Rural Power Supply",
+                "Deen Dayal Upadhyaya Gram Jyoti Yojana (DDUGJY) is designed to provide continuous power supply to the entire rural India. The scheme was launched under leadership of Prime Minister Shri Narendra Modi in November 2014 announcing that \"the government had decided to electrify 18,452 unelectrified villages within 1000 days, by May 1, 2018.",
+                "I want to know about Deen Dayal Upadhyaya Gram Jyoti Yojana",
+                "can you tell me about Deen Dayal Upadhyaya Gram Jyoti Yojana",
+                "what is Deen Dayal Upadhyaya Gram Jyoti Yojana"
+            ],
+            "responses": [
+                "Deen Dayal Upadhyaya Gram Jyoti Yojana. Deen Dayal Upadhyaya Gram Jyoti Yojana (DDUGJY) is designed to provide continuous power supply to the entire rural India. The scheme was launched under leadership of Prime Minister Shri Narendra Modi in November 2014 announcing that \"the government had decided to electrify 18,452 unelectrified villages within 1000 days, by May 1, 2018."
+            ]
+        },
+        {
+            "tag": "Deen Dayal Upadhyaya Grameen Kaushalya Yojna",
+            "patterns": [
+                "Deen Dayal Upadhyaya Grameen Kaushalya Yojna",
+                "Rural Development",
+                "Is there any schemes related to Rural Development",
+                "Program to provide rural youth especially, BPL and SC/ST segment of the population, with gainful employment by training them.Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY) aims to skill rural youth who are poor and provide them with jobs having regular monthly wages or above the minimum wages. ",
+                "I want to know about Deen Dayal Upadhyaya Grameen Kaushalya Yojna",
+                "can you tell me about Deen Dayal Upadhyaya Grameen Kaushalya Yojna",
+                "what is Deen Dayal Upadhyaya Grameen Kaushalya Yojna"
+            ],
+            "responses": [
+                "Deen Dayal Upadhyaya Grameen Kaushalya Yojna. Program to provide rural youth especially, BPL and SC/ST segment of the population, with gainful employment by training them.Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY) aims to skill rural youth who are poor and provide them with jobs having regular monthly wages or above the minimum wages. "
+            ]
+        },
+        {
+            "tag": "Digital India Programme",
+            "patterns": [
+                "Digital India Programme",
+                "Digitally Empowered Nation",
+                "Is there any schemes related to Digitally Empowered Nation",
+                "The main objective is to ensure that government services are available to citizens electronically and people get benefited from all the latest technology.Mission is to ensure the Government's services are made available to citizens electronically by improved online infrastructure and by increasing Internet connectivity or making the country digitally empowered in the field of technology. The initiative includes plans to connect rural areas with high-speed internet networks.",
+                "I want to know about Digital India Programme",
+                "can you tell me about Digital India Programme",
+                "what is Digital India Programme"
+            ],
+            "responses": [
+                "Digital India Programme. The main objective is to ensure that government services are available to citizens electronically and people get benefited from all the latest technology.Mission is to ensure the Government's services are made available to citizens electronically by improved online infrastructure and by increasing Internet connectivity or making the country digitally empowered in the field of technology. The initiative includes plans to connect rural areas with high-speed internet networks."
+            ]
+        },
+        {
+            "tag": "Gramin Bhandaran Yojana",
+            "patterns": [
+                "Gramin Bhandaran Yojana",
+                "Agriculture",
+                "Is there any schemes related to Agriculture",
+                "It is an agricultural scheme in India to promote the use of scientific storage in rural areas to meet the requirements of farmers for storing farm produce, processed farm produce and agricultural inputs.",
+                "I want to know about Gramin Bhandaran Yojana",
+                "can you tell me about Gramin Bhandaran Yojana",
+                "what is Gramin Bhandaran Yojana"
+            ],
+            "responses": [
+                "Gramin Bhandaran Yojana. It is an agricultural scheme in India to promote the use of scientific storage in rural areas to meet the requirements of farmers for storing farm produce, processed farm produce and agricultural inputs."
+            ]
+        },
+        {
+            "tag": "Indira Awaas Yojana",
+            "patterns": [
+                "Indira Awaas Yojana",
+                "Housing, Rural",
+                "Is there any schemes related to Housing, Rural",
+                "Provides monetary assistance to the poor for constructing their houses.\t\t\t",
+                "I want to know about Indira Awaas Yojana",
+                "can you tell me about Indira Awaas Yojana",
+                "what is Indira Awaas Yojana"
+            ],
+            "responses": [
+                "Indira Awaas Yojana. Provides monetary assistance to the poor for constructing their houses.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Indira Gandhi Matritva Sahyog Yojana",
+            "patterns": [
+                "Indira Gandhi Matritva Sahyog Yojana",
+                "Mother Care",
+                "Is there any schemes related to Mother Care",
+                "It is another central government scheme for An incentive of Rs. 4000 to women (19 years and above) for the first two births.It is a conditional cash transfer scheme for pregnant and lactating women of 19 years of age or above for the first live birth.It provides a partial wage compensation to women for wage-loss during childbirth and childcare and to provide conditions for safe delivery and good nutrition and feeding practices.",
+                "I want to know about Indira Gandhi Matritva Sahyog Yojana",
+                "can you tell me about Indira Gandhi Matritva Sahyog Yojana",
+                "what is Indira Gandhi Matritva Sahyog Yojana"
+            ],
+            "responses": [
+                "Indira Gandhi Matritva Sahyog Yojana. It is another central government scheme for An incentive of Rs. 4000 to women (19 years and above) for the first two births.It is a conditional cash transfer scheme for pregnant and lactating women of 19 years of age or above for the first live birth.It provides a partial wage compensation to women for wage-loss during childbirth and childcare and to provide conditions for safe delivery and good nutrition and feeding practices."
+            ]
+        },
+        {
+            "tag": "Integrated Child Development Services",
+            "patterns": [
+                "Integrated Child Development Services",
+                "Child Development",
+                "Is there any schemes related to Child Development",
+                "It is a government program in India which provides nutritional meals, preschool education, primary healthcare, immunization, health check-up and referral services to children under 6 years of age and their mothers.",
+                "I want to know about Integrated Child Development Services",
+                "can you tell me about Integrated Child Development Services",
+                "what is Integrated Child Development Services"
+            ],
+            "responses": [
+                "Integrated Child Development Services. It is a government program in India which provides nutritional meals, preschool education, primary healthcare, immunization, health check-up and referral services to children under 6 years of age and their mothers."
+            ]
+        },
+        {
+            "tag": "Integrated Rural Development Program",
+            "patterns": [
+                "Integrated Rural Development Program",
+                "Rural Development",
+                "Is there any schemes related to Rural Development",
+                "Self-employment program to improve the income-capacity among the poor and this scheme has been merged with another scheme named Swarnajayanti Gram Swarozgar Yojana (SGSY) since 01.04 1999.",
+                "I want to know about Integrated Rural Development Program",
+                "can you tell me about Integrated Rural Development Program",
+                "what is Integrated Rural Development Program"
+            ],
+            "responses": [
+                "Integrated Rural Development Program. Self-employment program to improve the income-capacity among the poor and this scheme has been merged with another scheme named Swarnajayanti Gram Swarozgar Yojana (SGSY) since 01.04 1999."
+            ]
+        },
+        {
+            "tag": "Janani Suraksha Yojana",
+            "patterns": [
+                "Janani Suraksha Yojana",
+                "Mother Care",
+                "Is there any schemes related to Mother Care",
+                "It is another health scheme in india for One-time monetary incentive to pregnant women for institutional/home births through assistance.",
+                "I want to know about Janani Suraksha Yojana",
+                "can you tell me about Janani Suraksha Yojana",
+                "what is Janani Suraksha Yojana"
+            ],
+            "responses": [
+                "Janani Suraksha Yojana. It is another health scheme in india for One-time monetary incentive to pregnant women for institutional/home births through assistance."
+            ]
+        },
+        {
+            "tag": "Jawaharlal Nehru National Urban Renewal Mission (JnNURM)",
+            "patterns": [
+                "Jawaharlal Nehru National Urban Renewal Mission (JnNURM)",
+                "Urban Development[7]",
+                "Is there any schemes related to Urban Development[7]",
+                "A programme dedicated to improving the quality of life and infrastructure in the cities.The aim is to encourage reforms and fast track planned development of identified cities. Focus is to be on efficiency in urban infrastructure and service delivery mechanisms, community participation, and accountability of ULBs/ Parastatal agencies towards citizens.",
+                "I want to know about Jawaharlal Nehru National Urban Renewal Mission (JnNURM)",
+                "can you tell me about Jawaharlal Nehru National Urban Renewal Mission (JnNURM)",
+                "what is Jawaharlal Nehru National Urban Renewal Mission (JnNURM)"
+            ],
+            "responses": [
+                "Jawaharlal Nehru National Urban Renewal Mission (JnNURM). A programme dedicated to improving the quality of life and infrastructure in the cities.The aim is to encourage reforms and fast track planned development of identified cities. Focus is to be on efficiency in urban infrastructure and service delivery mechanisms, community participation, and accountability of ULBs/ Parastatal agencies towards citizens."
+            ]
+        },
+        {
+            "tag": "Kasturba Gandhi Balika Vidyalaya",
+            "patterns": [
+                "Kasturba Gandhi Balika Vidyalaya",
+                "Education",
+                "Is there any schemes related to Education",
+                "To provide educational facilities (residential schools) for girls belonging to minority communities, SC, ST, OBC and families below the poverty line(BPL) in Educationally Backward Blocks.",
+                "I want to know about Kasturba Gandhi Balika Vidyalaya",
+                "can you tell me about Kasturba Gandhi Balika Vidyalaya",
+                "what is Kasturba Gandhi Balika Vidyalaya"
+            ],
+            "responses": [
+                "Kasturba Gandhi Balika Vidyalaya. To provide educational facilities (residential schools) for girls belonging to minority communities, SC, ST, OBC and families below the poverty line(BPL) in Educationally Backward Blocks."
+            ]
+        },
+        {
+            "tag": "INSPIRE Programme",
+            "patterns": [
+                "INSPIRE Programme",
+                "Students","scholarship","school students",
+                "Scholarships for elite Science students, Grants, and Fellowships for pursuing Ph.D., Research Grants to researchers.",
+                "Is there any schemes related to Scholarships for elite Science students, Grants, and Fellowships for pursuing Ph.D., Research Grants to researchers.",
+                "Scholarships for elite Science students, Grants, and Fellowships for pursuing Ph.D., Research Grants to researchers.The basic objective of INSPIRE is to communicate to the youth of the country the excitements of creative pursuit of science, attract talent to the study of science at an early age and thus build the required critical human resource pool for strengthening and expanding the Science & Technology system and R&D base.",
+                "I want to know about INSPIRE Programme",
+                "can you tell me about INSPIRE Programme",
+                "what is INSPIRE Programme"
+            ],
+            "responses": [
+                "INSPIRE Programme. Scholarships for elite Science students, Grants, and Fellowships for pursuing Ph.D., Research Grants to researchers.The basic objective of INSPIRE is to communicate to the youth of the country the excitements of creative pursuit of science, attract talent to the study of science at an early age and thus build the required critical human resource pool for strengthening and expanding the Science & Technology system and R&D base."
+            ]
+        },
+        {
+            "tag": "Kishore Vaigyanik Protsahan Yojana",
+            "patterns": [
+                "Kishore Vaigyanik Protsahan Yojana",
+                "Education",
+                "Is there any schemes related to Education",
+                "It is an education scheme in India for the Scholarship program to motivate students to take up careers in research in the areas of basic sciences, engineering, and medicine.",
+                "I want to know about Kishore Vaigyanik Protsahan Yojana",
+                "can you tell me about Kishore Vaigyanik Protsahan Yojana",
+                "what is Kishore Vaigyanik Protsahan Yojana"
+            ],
+            "responses": [
+                "Kishore Vaigyanik Protsahan Yojana. It is an education scheme in India for the Scholarship program to motivate students to take up careers in research in the areas of basic sciences, engineering, and medicine."
+            ]
+        },
+        {
+            "tag": "Livestock Insurance Scheme (India)",
+            "patterns": [
+                "Livestock Insurance Scheme (India)",
+                "Insurance to cattle and attaining substantial qualitative improvement in livestock and their products.",
+                "Is there any schemes related to Insurance to cattle and attaining substantial qualitative improvement in livestock and their products.",
+                "Insurance to cattle and attaining substantial qualitative improvement in livestock and their products.The component aims at management of risk and uncertainties by providing protection mechanism to the farmers against any eventual loss of their animals due to death and to demonstrate the benefit of the insurance of livestock to the people.",
+                "I want to know about Livestock Insurance Scheme (India)",
+                "can you tell me about Livestock Insurance Scheme (India)",
+                "what is Livestock Insurance Scheme (India)"
+            ],
+            "responses": [
+                "Livestock Insurance Scheme (India). Insurance to cattle and attaining substantial qualitative improvement in livestock and their products.The component aims at management of risk and uncertainties by providing protection mechanism to the farmers against any eventual loss of their animals due to death and to demonstrate the benefit of the insurance of livestock to the people."
+            ]
+        },
+        {
+            "tag": "Mahatma Gandhi National Rural Employment Guarantee Act",
+            "patterns": [
+                "Mahatma Gandhi National Rural Employment Guarantee Act",
+                "Rural Wage Employment",
+                "Is there any schemes related to Rural Wage Employment",
+                "Legal guarantee for 100 days of employment in every financial year to members of any rural household at the statutory minimum wage of Rs. 120 per day.",
+                "I want to know about Mahatma Gandhi National Rural Employment Guarantee Act",
+                "can you tell me about Mahatma Gandhi National Rural Employment Guarantee Act",
+                "what is Mahatma Gandhi National Rural Employment Guarantee Act"
+            ],
+            "responses": [
+                "Mahatma Gandhi National Rural Employment Guarantee Act. Legal guarantee for 100 days of employment in every financial year to members of any rural household at the statutory minimum wage of Rs. 120 per day."
+            ]
+        },
+        {
+            "tag": "Members of Parliament Local Area Development Scheme",
+            "patterns": [
+                "Members of Parliament Local Area Development Scheme",
+                "Each MP has the choice to suggest to the District Collector the works to the tune of Rs.5 Crores per annum to be taken up in his/her constituency.",
+                "Is there any schemes related to Each MP has the choice to suggest to the District Collector the works to the tune of Rs.5 Crores per annum to be taken up in his/her constituency.",
+                "It enables the members of parliaments (MP) to recommend developmental work in their constituencies with an emphasis on creating durable community assets based on locally felt needs.\t\t\t",
+                "I want to know about Members of Parliament Local Area Development Scheme",
+                "can you tell me about Members of Parliament Local Area Development Scheme",
+                "what is Members of Parliament Local Area Development Scheme"
+            ],
+            "responses": [
+                "Members of Parliament Local Area Development Scheme. It enables the members of parliaments (MP) to recommend developmental work in their constituencies with an emphasis on creating durable community assets based on locally felt needs.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Midday Meal Scheme",
+            "patterns": [
+                "Midday Meal Scheme",
+                "Health and Education",
+                "Is there any schemes related to Health and Education",
+                "Free lunches on working days for all children of Lower Primary and Upper Primary schools, designated by the Government of India to increase the nutritional level of the school children\t\t\t",
+                "I want to know about Midday Meal Scheme",
+                "can you tell me about Midday Meal Scheme",
+                "what is Midday Meal Scheme"
+            ],
+            "responses": [
+                "Midday Meal Scheme. Free lunches on working days for all children of Lower Primary and Upper Primary schools, designated by the Government of India to increase the nutritional level of the school children\t\t\t"
+            ]
+        },
+        {
+            "tag": "Namami Gange Programme",
+            "patterns": [
+                "Namami Gange Programme",
+                "Clean &amp; Protect Ganga",
+                "Is there any schemes related to Clean &amp; Protect Ganga",
+                "In Integrated Conservation Mission, it is approved as a 'Flagship Programme' by the Union Government to accomplish the twin objectives of effective abatement of pollution and conservation and rejuvenation of National River Ganga\t\t\t",
+                "I want to know about Namami Gange Programme",
+                "can you tell me about Namami Gange Programme",
+                "what is Namami Gange Programme"
+            ],
+            "responses": [
+                "Namami Gange Programme. In Integrated Conservation Mission, it is approved as a 'Flagship Programme' by the Union Government to accomplish the twin objectives of effective abatement of pollution and conservation and rejuvenation of National River Ganga\t\t\t"
+            ]
+        },
+        {
+            "tag": "National Literacy Mission Programme",
+            "patterns": [
+                "National Literacy Mission Programme",
+                "Education",
+                "Is there any schemes related to Education",
+                "Introduced by the Government of India as a part of Samagra Shiksha Abhiyan to eradicate illiteracy in the country by imparting functional literacy to non-literates in the age group of 15-35 years\t\t\t",
+                "I want to know about National Literacy Mission Programme",
+                "can you tell me about National Literacy Mission Programme",
+                "what is National Literacy Mission Programme"
+            ],
+            "responses": [
+                "National Literacy Mission Programme. Introduced by the Government of India as a part of Samagra Shiksha Abhiyan to eradicate illiteracy in the country by imparting functional literacy to non-literates in the age group of 15-35 years\t\t\t"
+            ]
+        },
+        {
+            "tag": "National Pension Scheme",
+            "patterns": [
+                "National Pension Scheme",
+                "Pension",
+                "Is there any schemes related to Pension",
+                "It is a government-sponsored pension scheme where a subscriber can contribute regularly in a pension account during her working life, withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.\t\t\t",
+                "I want to know about National Pension Scheme",
+                "can you tell me about National Pension Scheme",
+                "what is National Pension Scheme"
+            ],
+            "responses": [
+                "National Pension Scheme. It is a government-sponsored pension scheme where a subscriber can contribute regularly in a pension account during her working life, withdraw a part of the corpus in a lumpsum and use the remaining corpus to buy an annuity to secure a regular income after retirement.\t\t\t"
+            ]
+        },
+        {
+            "tag": "National Scheme on Welfare of Fishermen",
+            "patterns": [
+                "Fisherman","Fishermen","Fish",
+                "National Scheme on Welfare of Fishermen",
+                "Assistance to fishers for construction of a house, community hall, tube-wells for drinking water.",
+                "Is there any schemes related to Assistance to fishers for construction of a house, community hall, tube-wells for drinking water.",
+                "It offers financial assistance for fishermen for constructing homes, community halls for both recreation and work purposes, installation of tube-wells, and drinking wells.\t\t\t",
+                "I want to know about National Scheme on Welfare of Fishermen",
+                "can you tell me about National Scheme on Welfare of Fishermen",
+                "what is National Scheme on Welfare of Fishermen"
+            ],
+            "responses": [
+                "National Scheme on Welfare of Fishermen. It offers financial assistance for fishermen for constructing homes, community halls for both recreation and work purposes, installation of tube-wells, and drinking wells.\t\t\t"
+            ]
+        },
+        {
+            "tag": "National Service Scheme",
+            "patterns": [
+                "National Service Scheme","NSS",
+    
+                "Is there any schemes related to nss",
+                "Objective of Education through Service'  which involoves developing the personality and character of the student youth through voluntary community service.\t\t\t",
+                "I want to know about National Service Scheme",
+                "can you tell me about National Service Scheme",
+                "what is National Service Scheme"
+            ],
+            "responses": [
+                "National Service Scheme. Objective of'Education through Service'  which involoves developing the personality and character of the student youth through voluntary community service.\t\t\t"
+            ]
+        },
+        {
+            "tag": "National Social Assistance Scheme",
+            "patterns": [
+                "National Social Assistance Scheme",
+                "Pension",
+                "Is there any schemes related to Pension",
+                "To provide social assistance benefits to poor households in the case of old age, death of the breadwinner and maternity, the NSAP aims at ensuring minimum national standards, in addition to the benefits that the States are currently providing or might provide in future.\t\t\t",
+                "I want to know about National Social Assistance Scheme",
+                "can you tell me about National Social Assistance Scheme",
+                "what is National Social Assistance Scheme"
+            ],
+            "responses": [
+                "National Social Assistance Scheme. To provide social assistance benefits to poor households in the case of old age, death of the breadwinner and maternity, the NSAP aims at ensuring minimum national standards, in addition to the benefits that the States are currently providing or might provide in future.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Pooled Finance Development Fund Scheme",
+            "patterns": [
+                "Pooled Finance Development Fund Scheme",
+                "Is there any schemes related to nan",
+                "Aimed at helping smaller municipalities receive funds from alternative sources towards development of infrastructure projects. Under the scheme, ULBs can access enhanced credit facilities in the market on the basis of their creditworthiness.\t\t\t",
+                "I want to know about Pooled Finance Development Fund Scheme",
+                "can you tell me about Pooled Finance Development Fund Scheme",
+                "what is Pooled Finance Development Fund Scheme"
+            ],
+            "responses": [
+                "Pooled Finance Development Fund Scheme. Aimed at helping smaller municipalities receive funds from alternative sources towards development of infrastructure projects. Under the scheme, ULBs can access enhanced credit facilities in the market on the basis of their creditworthiness.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Pradhan Mantri Adarsh Gram Yojana",
+            "patterns": [
+                "Pradhan Mantri Adarsh Gram Yojana",
+                "Model Village",
+                "Is there any schemes related to Model Village",
+                " A Government of India initiative for the empowerment of deprived sections which aims to achieve integrated development of selected villages through convergent implementation of all relevant Central and State schemes.\t\t\t",
+                "I want to know about Pradhan Mantri Adarsh Gram Yojana",
+                "can you tell me about Pradhan Mantri Adarsh Gram Yojana",
+                "what is Pradhan Mantri Adarsh Gram Yojana"
+            ],
+            "responses": [
+                "Pradhan Mantri Adarsh Gram Yojana.  A Government of India initiative for the empowerment of deprived sections which aims to achieve integrated development of selected villages through convergent implementation of all relevant Central and State schemes.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Pradhan Mantri Kaushal Vikas Yojna",
+            "patterns": [
+                "Pradhan Mantri Kaushal Vikas Yojna",
+                "Skill Development",
+                "Is there any schemes related to Skill Development",
+                "To encourage and promote skill development inthe country by providing free short duration skill training and incentivizing this by providing monetary rewards to youth for skill certification\t\t\t",
+                "I want to know about Pradhan Mantri Kaushal Vikas Yojna",
+                "can you tell me about Pradhan Mantri Kaushal Vikas Yojna",
+                "what is Pradhan Mantri Kaushal Vikas Yojna"
+            ],
+            "responses": [
+                "Pradhan Mantri Kaushal Vikas Yojna. To encourage and promote skill development inthe country by providing free short duration skill training and incentivizing this by providing monetary rewards to youth for skill certification\t\t\t"
+            ]
+        },
+        {
+            "tag": "Pradhan Mantri Suraksha Bima Yojana",
+            "patterns": [
+                "Pradhan Mantri Suraksha Bima Yojana",
+                "Insurance",
+                "Is there any schemes related to Insurance",
+                "A government-backed accident insurance scheme that covers accidental death, permanent disability, and partial disablement. Individuals between 18 years and 70 years are eligible to apply for this scheme.\t\t\t",
+                "I want to know about Pradhan Mantri Suraksha Bima Yojana",
+                "can you tell me about Pradhan Mantri Suraksha Bima Yojana",
+                "what is Pradhan Mantri Suraksha Bima Yojana"
+            ],
+            "responses": [
+                "Pradhan Mantri Suraksha Bima Yojana. A government-backed accident insurance scheme that covers accidental death, permanent disability, and partial disablement. Individuals between 18 years and 70 years are eligible to apply for this scheme.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+            "patterns": [
+                "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+                "Insurance",
+                "Is there any schemes related to Insurance",
+                "It is a government-backed Life Insurance Scheme in India, renewable from year to year, offering coverage for death where the benefit of the scheme will accrue only to the nominee.\t\t\t",
+                "I want to know about Pradhan Mantri Jeevan Jyoti Bima Yojana",
+                "can you tell me about Pradhan Mantri Jeevan Jyoti Bima Yojana",
+                "what is Pradhan Mantri Jeevan Jyoti Bima Yojana"
+            ],
+            "responses": [
+                "Pradhan Mantri Jeevan Jyoti Bima Yojana. It is a government-backed Life Insurance Scheme in India, renewable from year to year, offering coverage for death where the benefit of the scheme will accrue only to the nominee.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Pradhan Mantri Jan Dhan Yojana",
+            "patterns": [
+                "Pradhan Mantri Jan Dhan Yojana",
+                "Financial Inclusion",
+                "Is there any schemes related to Financial Inclusion",
+                "National Mission for Financial Inclusion to ensure access to financial services, namely, a basic savings & deposit accounts, remittance, credit, insurance, pension in an affordable manner.\t\t\t",
+                "I want to know about Pradhan Mantri Jan Dhan Yojana",
+                "can you tell me about Pradhan Mantri Jan Dhan Yojana",
+                "what is Pradhan Mantri Jan Dhan Yojana"
+            ],
+            "responses": [
+                "Pradhan Mantri Jan Dhan Yojana. National Mission for Financial Inclusion to ensure access to financial services, namely, a basic savings & deposit accounts, remittance, credit, insurance, pension in an affordable manner.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Pradhan Mantri Gram Sadak Yojana",
+            "patterns": [
+                "Pradhan Mantri Gram Sadak Yojana",
+                "Rural Development",
+                "Is there any schemes related to Rural Development",
+                "A nation-wide plan in India to provide good all-weather road connectivity to unconnected villages. Of 178,000 (1.7 lakh) habitations with a population of above 500 in the plains and above 250 in the hilly areas planned to be connected by all-weather roads, 82% were already connected by December 2017 and work-in-progress on the remaining 47,000 habitations was on-track for completion by March 2019\t\t\t",
+                "I want to know about Pradhan Mantri Gram Sadak Yojana",
+                "can you tell me about Pradhan Mantri Gram Sadak Yojana",
+                "what is Pradhan Mantri Gram Sadak Yojana"
+            ],
+            "responses": [
+                "Pradhan Mantri Gram Sadak Yojana. A nation-wide plan in India to provide good all-weather road connectivity to unconnected villages. Of 178,000 (1.7 lakh) habitations with a population of above 500 in the plains and above 250 in the hilly areas planned to be connected by all-weather roads, 82% were already connected by December 2017 and work-in-progress on the remaining 47,000 habitations was on-track for completion by March 2019\t\t\t"
+            ]
+        },
+        {
+            "tag": "Rajiv Awas Yojana",
+            "patterns": [
+                "Rajiv Awas Yojana",
+                "Urban Housing",
+                "Is there any schemes related to Urban Housing",
+                "An Indian government program that attempts to help slum dwellers gain appropriate housing and address the processes by which slums are created and reproduced.\t\t\t",
+                "I want to know about Rajiv Awas Yojana",
+                "can you tell me about Rajiv Awas Yojana",
+                "what is Rajiv Awas Yojana"
+            ],
+            "responses": [
+                "Rajiv Awas Yojana. An Indian government program that attempts to help slum dwellers gain appropriate housing and address the processes by which slums are created and reproduced.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Rajiv Gandhi Grameen Vidyutikaran Yojana ",
+            "patterns": [
+                "Rajiv Gandhi Grameen Vidyutikaran Yojana ",
+                "Rural Electrification",
+                "Is there any schemes related to Rural Electrification",
+                "A programme to provide rural electricity Infrastructure and household electrification for attaining the goal of providing access to electricity to all households in the country.\t\t\t",
+                "I want to know about Rajiv Gandhi Grameen Vidyutikaran Yojana ",
+                "can you tell me about Rajiv Gandhi Grameen Vidyutikaran Yojana ",
+                "what is Rajiv Gandhi Grameen Vidyutikaran Yojana "
+            ],
+            "responses": [
+                "Rajiv Gandhi Grameen Vidyutikaran Yojana . A programme to provide rural electricity Infrastructure and household electrification for attaining the goal of providing access to electricity to all households in the country.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Rashtriya Krishi Vikas Yojana",
+            "patterns": [
+                "Rashtriya Krishi Vikas Yojana",
+                "Agriculture",
+                "Is there any schemes related to Agriculture",
+                "A special Additional Central Assistance Scheme to achieve annual growth of 4% in agriculture through the development of Agriculture and its allied sectors.\t\t\t",
+                "I want to know about Rashtriya Krishi Vikas Yojana",
+                "can you tell me about Rashtriya Krishi Vikas Yojana",
+                "what is Rashtriya Krishi Vikas Yojana"
+            ],
+            "responses": [
+                "Rashtriya Krishi Vikas Yojana. A special Additional Central Assistance Scheme to achieve annual growth of 4% in agriculture through the development of Agriculture and its allied sectors.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Rashtriya Swasthya Bima Yojana",
+            "patterns": [
+                "Rashtriya Swasthya Bima Yojana",
+                "Insurance",
+                "Is there any schemes related to Insurance",
+                "Is a government-run health insurance programme for the Indian poor which aims to provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members\t\t\t",
+                "I want to know about Rashtriya Swasthya Bima Yojana",
+                "can you tell me about Rashtriya Swasthya Bima Yojana",
+                "what is Rashtriya Swasthya Bima Yojana"
+            ],
+            "responses": [
+                "Rashtriya Swasthya Bima Yojana. Is a government-run health insurance programme for the Indian poor which aims to provide health insurance coverage to the unrecognised sector workers belonging to the BPL category and their family members\t\t\t"
+            ]
+        },
+        
+            
+        {
+            "tag": "Saksham or Rajiv Gandhi Scheme for Empowerment of Adolescent Boys",
+            "patterns": [
+                "Saksham or Rajiv Gandhi Scheme for Empowerment of Adolescent Boys",
+                "Skill Development",
+                "Is there any schemes related to Skill Development",
+                "It aims holistic development of Adolescent Boys,i.e., the all-round development of Adolescent Boys to make them self-reliant, gender-sensitive and aware citizens, when they grow up\t\t\t",
+                "I want to know about Saksham or Rajiv Gandhi Scheme for Empowerment of Adolescent Boys",
+                "can you tell me about Saksham or Rajiv Gandhi Scheme for Empowerment of Adolescent Boys",
+                "what is Saksham or Rajiv Gandhi Scheme for Empowerment of Adolescent Boys"
+            ],
+            "responses": [
+                "Saksham or Rajiv Gandhi Scheme for Empowerment of Adolescent Boys. It aims holistic development of Adolescent Boys,i.e., the all-round development of Adolescent Boys to make them self-reliant, gender-sensitive and aware citizens, when they grow up\t\t\t"
+            ]
+        },
+        {
+            "tag": "Sabla or Rajiv Gandhi Scheme for Empowerment of Adolescent Girls",
+            "patterns": [
+                "Sabla or Rajiv Gandhi Scheme for Empowerment of Adolescent Girls",
+                "Skill Development",
+                "Is there any schemes related to Skill Development",
+                "A programme to provide nutrition to the all out-of-school Adolescent girls in the age group of 11-18 years and to uplift their social and economic status.\t\t\t",
+                "I want to know about Sabla or Rajiv Gandhi Scheme for Empowerment of Adolescent Girls",
+                "can you tell me about Sabla or Rajiv Gandhi Scheme for Empowerment of Adolescent Girls",
+                "what is Sabla or Rajiv Gandhi Scheme for Empowerment of Adolescent Girls"
+            ],
+            "responses": [
+                "Sabla or Rajiv Gandhi Scheme for Empowerment of Adolescent Girls. A programme to provide nutrition to the all out-of-school Adolescent girls in the age group of 11-18 years and to uplift their social and economic status.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Sampoorna Grameen Rozgar Yojana",
+            "patterns": [
+                "Sampoorna Grameen Rozgar Yojana",
+                "Rural Self Employment",
+                "Is there any schemes related to Rural Self Employment",
+                "The primary objective of the Scheme is to provide additional and supplementary wage employment and thereby provide food security and improve nutritional levels in all rural areas. The secondary objective is the creation of durable community, social and economic assets and infrastructural development in rural areas.\t\t\t",
+                "I want to know about Sampoorna Grameen Rozgar Yojana",
+                "can you tell me about Sampoorna Grameen Rozgar Yojana",
+                "what is Sampoorna Grameen Rozgar Yojana"
+            ],
+            "responses": [
+                "Sampoorna Grameen Rozgar Yojana. The primary objective of the Scheme is to provide additional and supplementary wage employment and thereby provide food security and improve nutritional levels in all rural areas. The secondary objective is the creation of durable community, social and economic assets and infrastructural development in rural areas.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Swabhiman",
+            "patterns": [
+                "Swabhiman",
+                "Financial Inclusion",
+                "Is there any schemes related to Financial Inclusion",
+                "To bring banking within the reach of the masses of the Indian population; to enable small and marginal farmers to obtain credit at lower rates from banks and other financial institutions; to empower people to achieve their own goals by enhancing their financial capacities\t\t\t",
+                "I want to know about Swabhiman",
+                "can you tell me about Swabhiman",
+                "what is Swabhiman"
+            ],
+            "responses": [
+                "Swabhiman. To bring banking within the reach of the masses of the Indian population; to enable small and marginal farmers to obtain credit at lower rates from banks and other financial institutions; to empower people to achieve their own goals by enhancing their financial capacities\t\t\t"
+            ]
+        },
+        {
+            "tag": "Swarnajayanti Gram Swarozgar Yojana",
+            "patterns": [
+                "Swarnajayanti Gram Swarozgar Yojana",
+                "Rural Employment",
+                "Is there any schemes related to Rural Employment",
+                "A programme to provide sustainable income to the rural poor; establishing a large number of micro-enterprises in the rural areas, building upon the potential of the rural poor.\t\t\t",
+                "I want to know about Swarnajayanti Gram Swarozgar Yojana",
+                "can you tell me about Swarnajayanti Gram Swarozgar Yojana",
+                "what is Swarnajayanti Gram Swarozgar Yojana"
+            ],
+            "responses": [
+                "Swarnajayanti Gram Swarozgar Yojana. A programme to provide sustainable income to the rural poor; establishing a large number of micro-enterprises in the rural areas, building upon the potential of the rural poor.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Swavalamban",
+            "patterns": [
+                "Swavalamban",
+                "Pension",
+                "Is there any schemes related to Pension",
+                " pension scheme of the Government and contributes between Rs. 1000 and Rs. 12000/- per annum",
+                "I want to know about Swavalamban",
+                "can you tell me about Swavalamban",
+                "what is Swavalamban"
+            ],
+            "responses": [
+                "Swavalamban. Any citizen of India who is not part of any statutory pension scheme of the Government and contributes between Rs. 1000 and Rs. 12000/- per annum, could join the scheme. The Central Government shall contribute Rs. 1000 per annum to all such citizens.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Udisha",
+            "patterns": [
+                "Udisha",
+                "Training Program for ICDS workers.",
+                "Is there any schemes related to Training Program for ICDS workers.",
+                "An action plan to create infrastructure including equipment and medicine, training  of  the  doctors for paediatric  care to  ensure the capacity to treat children.\t\t\t",
+                "I want to know about Udisha",
+                "can you tell me about Udisha",
+                "what is Udisha"
+            ],
+            "responses": [
+                "Udisha. An action plan to create infrastructure including equipment and medicine, training  of  the  doctors for paediatric  care to  ensure the capacity to treat children.\t\t\t"
+            ]
+        },
+        {
+            "tag": "Voluntary Disclosure of Income Scheme",
+            "patterns": [
+                "Voluntary Disclosure of Income Scheme",
+                "Provides Opportunity to the income tax/ wealth tax defaulters to disclose their income at the prevailing tax rates.",
+                "Is there any schemes related to Provides Opportunity to the income tax/ wealth tax defaulters to disclose their income at the prevailing tax rates.",
+                "A programme that would give an opportunity to the income tax or wealth tax defaulters to disclose their undisclosed income at the prevailing tax rates.\t\t\t",
+                "I want to know about Voluntary Disclosure of Income Scheme",
+                "can you tell me about Voluntary Disclosure of Income Scheme",
+                "what is Voluntary Disclosure of Income Scheme"
+            ],
+            "responses": [
+                "Voluntary Disclosure of Income Scheme. A programme that would give an opportunity to the income tax or wealth tax defaulters to disclose their undisclosed income at the prevailing tax rates.\t\t\t"
+            ]
+        },
+        {
+            "tag": "National Rural Livelihood Mission (NRLM)",
+            "patterns": [
+                "National Rural Livelihood Mission (NRLM)",
+                "This scheme will organize rural poor into Self Help Group(SHG) groups and make them capable of self-employment.",
+                "Is there any schemes related to This scheme will organize rural poor into Self Help Group(SHG) groups and make them capable of self-employment.",
+                "It aims at creating efficient and effective institutional platforms of the rural poor, enabling them to increase household income through sustainable livelihood enhancements and improved access to financial services.\t\t\t",
+                "I want to know about National Rural Livelihood Mission (NRLM)",
+                "can you tell me about National Rural Livelihood Mission (NRLM)",
+                "what is National Rural Livelihood Mission (NRLM)"
+            ],
+            "responses": [
+                "National Rural Livelihood Mission (NRLM). It aims at creating efficient and effective institutional platforms of the rural poor, enabling them to increase household income through sustainable livelihood enhancements and improved access to financial services.\t\t\t"
+            ]
+        },
+        {
+            "tag": "National Urban Livelihood Mission (NULM)",
+            "patterns": [
+                "National Urban Livelihood Mission (NULM)",
+                "This scheme aims at reducing poverty of urban poor households especially, street vendors who constitute an important segment of urban poor by enabling them access skilled wage employment opportunities.",
+                "Is there any schemes related to This scheme aims at reducing poverty of urban poor households especially, street vendors who constitute an important segment of urban poor by enabling them access skilled wage employment opportunities.",
+                "It aims to reduce poverty and vulnerability of the urban poor households by enabling them to access gainful self-employment and skilled wage employment opportunities.\t\t\t",
+                "I want to know about National Urban Livelihood Mission (NULM)",
+                "can you tell me about National Urban Livelihood Mission (NULM)",
+                "what is National Urban Livelihood Mission (NULM)"
+            ],
+            "responses": [
+                "National Urban Livelihood Mission (NULM). It aims to reduce poverty and vulnerability of the urban poor households by enabling them to access gainful self-employment and skilled wage employment opportunities.\t\t\t"
+            ]
+        },
+        {
+            "tag": "HRIDAY \u00e2\u20ac\u201c Heritage City Development and Augmentation Yojana",
+            "patterns": [
+                "HRIDAY \u00e2\u20ac\u201c Heritage City Development and Augmentation Yojana",
+                "Urban Development",
+                "Is there any schemes related to Urban Development",
+                "The scheme main objective is to preserve and rejuvenate the rich cultural heritage of the country.The Scheme shall support development of core heritage infrastructure projects including revitalization of linked urban infrastructure for heritage assets such as monuments, Ghats, temples etc. along with reviving certain intangible assets. ",
+                "I want to know about HRIDAY \u00e2\u20ac\u201c Heritage City Development and Augmentation Yojana",
+                "can you tell me about HRIDAY \u00e2\u20ac\u201c Heritage City Development and Augmentation Yojana",
+                "what is HRIDAY \u00e2\u20ac\u201c Heritage City Development and Augmentation Yojana"
+            ],
+            "responses": [
+                "HRIDAY \u00e2\u20ac\u201c Heritage City Development and Augmentation Yojana. The scheme main objective is to preserve and rejuvenate the rich cultural heritage of the country.The Scheme shall support development of core heritage infrastructure projects including revitalization of linked urban infrastructure for heritage assets such as monuments, Ghats, temples etc. along with reviving certain intangible assets. "
+            ]
+        },
+        {
+            "tag": "Sukanya Samridhi Yojana (Girl Child Prosperity Scheme)",
+            "patterns": [
+                "Sukanya Samridhi Yojana (Girl Child Prosperity Scheme)",
+                "The scheme primarily ensures equitable share to a girl child in resources and savings of a family.",
+                "Is there any schemes related to The scheme primarily ensures equitable share to a girl child in resources and savings of a family.",
+                "The scheme primarily ensures equitable share to a girl child in resources and savings of a family. Tenure of SSY is 21 years from the date of opening of the account or till the marriage of the girl after she attains the age of 18 years.",
+                "I want to know about Sukanya Samridhi Yojana (Girl Child Prosperity Scheme)",
+                "can you tell me about Sukanya Samridhi Yojana (Girl Child Prosperity Scheme)",
+                "what is Sukanya Samridhi Yojana (Girl Child Prosperity Scheme)"
+            ],
+            "responses": [
+                "Sukanya Samridhi Yojana (Girl Child Prosperity Scheme). The scheme primarily ensures equitable share to a girl child in resources and savings of a family. Tenure of SSY is 21 years from the date of opening of the account or till the marriage of the girl after she attains the age of 18 years."
+            ]
+        },
+        {
+            "tag": "Smart Cities Mission",
+            "patterns": [
+                "Smart Cities Mission",
+                "Urban Development",
+                "Is there any schemes related to Urban Development",
+                "It is an central govt scheme which Aims to enable better living and drive economic growth stressing on the need for people centered development.",
+                "I want to know about Smart Cities Mission",
+                "can you tell me about Smart Cities Mission",
+                "what is Smart Cities Mission"
+            ],
+            "responses": [
+                "Smart Cities Mission. It is an central govt scheme which Aims to enable better living and drive economic growth stressing on the need for people centered development."
+            ]
+        },
+        {
+            "tag": "Atal Mission for Rejuvenation and Urban Transformation (AMRUT)",
+            "patterns": [
+                "Atal Mission for Rejuvenation and Urban Transformation (AMRUT)",
+                "Urban Development",
+                "Is there any schemes related to Urban Development",
+                "Jawaharlal Nehru National Urban Renewal Mission was renamed to Atal Mission for Rejuvenation and Urban Transformation (AMRUT) and then relaunched by Prime Minister of India Narendra Modi in June 2015 with the focus to establish infrastructure that could ensure adequate robust sewage networks and water supply for urban transformation by implementing urban revival projects.",
+                "I want to know about Atal Mission for Rejuvenation and Urban Transformation (AMRUT)",
+                "can you tell me about Atal Mission for Rejuvenation and Urban Transformation (AMRUT)",
+                "what is Atal Mission for Rejuvenation and Urban Transformation (AMRUT)"
+            ],
+            "responses": [
+                "Atal Mission for Rejuvenation and Urban Transformation (AMRUT). Jawaharlal Nehru National Urban Renewal Mission was renamed to Atal Mission for Rejuvenation and Urban Transformation (AMRUT) and then relaunched by Prime Minister of India Narendra Modi in June 2015 with the focus to establish infrastructure that could ensure adequate robust sewage networks and water supply for urban transformation by implementing urban revival projects."
+            ]
+        },
+        {
+            "tag": "Pradhan Mantri Awas Yojana (PMAY)",
+            "patterns": [
+                "Pradhan Mantri Awas Yojana (PMAY)",
+                "Housing",
+                "Is there any schemes related to Housing",
+                "To drive economic growth.The Mission addresses urban housing shortage among the EWS/LIG and MIG categories including the slum dwellers by ensuring a pucca house to all eligible urban households by the year 2022, when Nation completes 75 years of its Independence. ",
+                "I want to know about Pradhan Mantri Awas Yojana (PMAY)",
+                "can you tell me about Pradhan Mantri Awas Yojana (PMAY)",
+                "what is Pradhan Mantri Awas Yojana (PMAY)"
+            ],
+            "responses": [
+                "Pradhan Mantri Awas Yojana (PMAY). To drive economic growth.The Mission addresses urban housing shortage among the EWS/LIG and MIG categories including the slum dwellers by ensuring a pucca house to all eligible urban households by the year 2022, when Nation completes 75 years of its Independence. "
+            ]
+        },
+        {
+            "tag": "National Child Labour Projects(NCLP)",
+            "patterns": [
+                "National Child Labour Projects(NCLP)",
+                "Child Labour",
+                "Is there any schemes related to Child Labour",
+                "The objective of this scheme is to eradicate child labor in hazardous industries by 2010. The children in the age group of 9-14 years are withdrawn from work and put into NCLP Special Training Centres, where they are provided with bridge education, vocational training, mid-day meal, stipend, health care etc. before being mainstreamed into formal education system.",
+                "I want to know about National Child Labour Projects(NCLP)",
+                "can you tell me about National Child Labour Projects(NCLP)",
+                "what is National Child Labour Projects(NCLP)"
+            ],
+            "responses": [
+                "National Child Labour Projects(NCLP). The objective of this scheme is to eradicate child labor in hazardous industries by 2010. The children in the age group of 9-14 years are withdrawn from work and put into NCLP Special Training Centres, where they are provided with bridge education, vocational training, mid-day meal, stipend, health care etc. before being mainstreamed into formal education system."
+            ]
+        },
+        {
+            "tag": "Antyodaya Anna Yojna",
+            "patterns": [
+                "Antyodaya Anna Yojna",
+                "Food Security",
+                "Is there any schemes related to Food Security",
+                "The issue of Ration Cards after the recognition of Antyodaya families, unique quota cards to be recognized as an Antyodaya Ration Card  must be given to the Antyodaya families by the chosen power.",
+                "I want to know about Antyodaya Anna Yojna",
+                "can you tell me about Antyodaya Anna Yojna",
+                "what is Antyodaya Anna Yojna"
+            ],
+            "responses": [
+                "Antyodaya Anna Yojna. The issue of Ration Cards after the recognition of Antyodaya families, unique quota cards to be recognized as an \u201cAntyodaya Ration Card\u201d must be given to the Antyodaya families by the chosen power."
+            ]
+        },
+        {
+            "tag": "Pradhan Mantri Kaushal Vikas Yojana",
+            "patterns": [
+                "Pradhan Mantri Kaushal Vikas Yojana",
+                "Skill Development",
+                "Is there any schemes related to Skill Development",
+                "Seeks to provide the institutional capacity to train a minimum of 40 crore skilled people by 2022 .The aim of the PMKVY scheme is to encourage aptitude towards employable skills and to increase working efficiency of probable and existing daily wage earners, by giving monetary awards and rewards and by providing quality training to them.",
+                "I want to know about Pradhan Mantri Kaushal Vikas Yojana",
+                "can you tell me about Pradhan Mantri Kaushal Vikas Yojana",
+                "what is Pradhan Mantri Kaushal Vikas Yojana"
+            ],
+            "responses": [
+                "Pradhan Mantri Kaushal Vikas Yojana. Seeks to provide the institutional capacity to train a minimum of 40 crore skilled people by 2022 .The aim of the PMKVY scheme is to encourage aptitude towards employable skills and to increase working efficiency of probable and existing daily wage earners, by giving monetary awards and rewards and by providing quality training to them."
+            ]
+        },
+        {
+            "tag": "National Food Security Mission",
+            "patterns": [
+                "National Food Security Mission",
+                "Food Security",
+                "Is there any schemes related to Food Security",
+                "The aim is to reduce the yield gap in crops through the dissemination of improved technologies and farm management practices which are efficient.",
+                "I want to know about National Food Security Mission",
+                "can you tell me about National Food Security Mission",
+                "what is National Food Security Mission"
+            ],
+            "responses": [
+                "National Food Security Mission. The aim is to reduce the yield gap in crops through the dissemination of improved technologies and farm management practices which are efficient."
+            ]
+        },
+        {
+            "tag": "Pradhan Mantri Ujjwala Yojana",
+            "patterns": [
+                "Pradhan Mantri Ujjwala Yojana",
+                "Safety",
+                "Is there any schemes related to Safety",
+                "It is a scheme of the Ministry of Petroleum & Natural Gas for providing LPG connections to women from Below Poverty Line (BPL) households.",
+                "I want to know about Pradhan Mantri Ujjwala Yojana",
+                "can you tell me about Pradhan Mantri Ujjwala Yojana",
+                "what is Pradhan Mantri Ujjwala Yojana"
+            ],
+            "responses": [
+                "Pradhan Mantri Ujjwala Yojana. It is a scheme of the Ministry of Petroleum & Natural Gas for providing LPG connections to women from Below Poverty Line (BPL) households."
+            ]
+        }
+    ]
+}
