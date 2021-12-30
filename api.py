@@ -9,7 +9,7 @@ app.static_folder = 'static'
 
 @app.route("/dark")
 def chat():
-    return render_template("index copy.html")
+    return render_template("dark theme.html")
 
 @app.route("/")
 def home():
