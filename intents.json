@@ -3,40 +3,40 @@
         {
             "tag": "greeting",
                 "patterns": ["Hi there","Hey","Hola", "Hello", "Good day"],
-                "responses": ["Hello! What can I do for you?", "Hola! is there anything that I can help you with?", "Hi there, how can I help?"]
+                "responses": ["Hello! What can I do for you?", "Hola! is there anything that I can help you with?", "Hi there, how can I help?","Hi, Nice to meet you! How can I help you?","It's a pleasure to meet you! How can I help you?"]
                },
                {"tag": "goodbye",
                 "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","byeeee","byee"],
-                "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+                "responses": ["See you!", "Have a nice day", "Bye! Come back again soon","Have a great day!","Catch you later!"]
                },
                {"tag": "thanks",
-                "patterns": ["Thanks", "Thank you", "That's helpful", "thanku", "Thankyou","Thanks for helping me","Thank you so much"],
+                "patterns": ["Thanks", "Thank you", "That's helpful", "thanku", "Thankyou","Thanks for helping me","Thank you for your time today!","Thank you so much"],
                 "responses": ["Happy to help!", "I'm glad that I helped you!", "My pleasure"]
                },
                {"tag": "options",
-                "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
-                "responses": ["I can help you to know about the Government Schemes", "Offering support finding Government Schemes..."]
+                "patterns": ["How could you help me?", "What can you do?", "What help do you provide?", "How can you be helpful?", "What support is being offered?"],
+                "responses": ["I can help you to know about the Government Schemes", "Offering support for finding Government Schemes...","I can suggest some government schemes which would be of great help for you!"]
                },
                {"tag": "how_are_u",
-                "patterns": [ "how r u","How are you", "How to do you do?","are you doing good?" ],
-                "responses": ["I am doing really great! How about you?"]
+                "patterns": [ "how r u","How are you", "How to do you do?","are you doing good?" ,"How's your day going?"],
+                "responses": ["I am doing really great! How can I help you?","I'm fine, thanks! "]
                },
                {"tag": "robot",
                 "patterns": ["robot?", "Who created you?", "Are you real?", "r u human?", "How do you work?" ],
                 "responses": ["I am a chatbot created using Artificial Intelligence. Hope so that answers..."]
                },
                {"tag": "name",
-                "patterns": ["What is your name?", "May I know your name?", "Who are you", "What's your name?", "Tell me your name","Tell me about yourself..." ],
-                "responses": ["My name is Sam, I am an ai chatbot, What can I do for you?"]
+                "patterns": ["What is your name?", "May I know your name?", "Who are you?", "What's your name?", "Tell me your name","Tell me about yourself..." ],
+                "responses": ["My name is Sam, I am an AI ChatBot, What can I do for you?"]
                },
                {"tag": "fine",
                    "patterns": ["I am fine","I am great","I am doing great","fine","good","great"],
-                   "responses": ["That's great! What can I do for you?"]
+                   "responses": ["That's great! What can I do for you?","That's happy to hear! How can I help you?"]
                },
                {"tag": "bad",
                    "patterns": ["I am sad","bad","worse","i am not well"],
                    "responses": ["Sorry about that, Is there anything that I can help you with?"]
-               },
+                },
 
             {
 
