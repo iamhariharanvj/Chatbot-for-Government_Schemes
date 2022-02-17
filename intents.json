@@ -2,43 +2,54 @@
     "intents": [
         {
             "tag": "greeting",
-                "patterns": ["Hi there","Hey","Hola", "Hello", "Good day"],
-                "responses": ["Hello! What can I do for you?", "Hola! is there anything that I can help you with?", "Hi there, how can I help?","Hi, Nice to meet you! How can I help you?","It's a pleasure to meet you! How can I help you?"]
-               },
-               {"tag": "goodbye",
-                "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","byeeee","byee"],
-                "responses": ["See you!", "Have a nice day", "Bye! Come back again soon","Have a great day!","Catch you later!"]
-               },
-               {"tag": "thanks",
-                "patterns": ["Thanks", "Thank you", "That's helpful", "thanku", "Thankyou","Thanks for helping me","Thank you for your time today!","Thank you so much"],
-                "responses": ["Happy to help!", "I'm glad that I helped you!", "My pleasure"]
-               },
-               {"tag": "options",
-                "patterns": ["How could you help me?", "What can you do?", "What help do you provide?", "How can you be helpful?", "What support is being offered?"],
-                "responses": ["I can help you to know about the Government Schemes", "Offering support for finding Government Schemes...","I can suggest some government schemes which would be of great help for you!"]
-               },
-               {"tag": "how_are_u",
-                "patterns": [ "how r u","How are you", "How to do you do?","are you doing good?" ,"How's your day going?"],
-                "responses": ["I am doing really great! How can I help you?","I'm fine, thanks! "]
-               },
-               {"tag": "robot",
-                "patterns": ["robot?", "Who created you?", "Are you real?", "r u human?", "How do you work?" ],
-                "responses": ["I am a chatbot created using Artificial Intelligence. Hope so that answers..."]
-               },
-               {"tag": "name",
-                "patterns": ["What is your name?", "May I know your name?", "Who are you?", "What's your name?", "Tell me your name","Tell me about yourself..." ],
-                "responses": ["My name is Sam, I am an AI ChatBot, What can I do for you?"]
-               },
-               {"tag": "fine",
-                   "patterns": ["I am fine","I am great","I am doing great","fine","good","great"],
-                   "responses": ["That's great! What can I do for you?","That's happy to hear! How can I help you?"]
-               },
-               {"tag": "bad",
-                   "patterns": ["I am sad","bad","worse","i am not well"],
-                   "responses": ["Sorry about that, Is there anything that I can help you with?"]
-                },
+            "patterns": ["Hi there","Good Morning","Good Afternoon","Hey","Hola","Good Evening", "Hello", "Good day","Hi"],
+            "responses": ["Hello! What can I do for you?", "Hola! is there anything that I can help you with?", "Hi there, how can I help?","Hi, Nice to meet you! How can I help you?","It's a pleasure to meet you! How can I help you?"]
+        },
 
-            {
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye","Good night", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time","byeeee","byee"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon","Have a great day!","Catch you later!"]
+        },
+
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful","good bye", "thanku", "Thankyou","Thanks for helping me","Thank you for your time today!","Thank you so much"],
+            "responses": ["Happy to help!", "I'm glad that I helped you!", "My pleasure"]
+        },
+           
+        {
+            "tag": "options",
+            "patterns": ["How could you help me?", "What can you do?", "What help do you provide?", "How can you be helpful?", "What support is being offered?"],
+            "responses": ["I can help you to know about the Government Schemes", "Offering support for finding Government Schemes...","I can suggest some government schemes which would be of great help for you!"]
+        },
+        {
+            "tag": "how_are_u",
+            "patterns": [ "how r u","How are you", "How to do you do?","are you doing good?" ,"How's your day going?"],
+            "responses": ["I am doing really great! How can I help you?","I'm fine, thanks! "]
+        },
+        {
+            "tag": "robot",
+            "patterns": ["robot?", "Who created you?", "Are you real?", "r u human?", "How do you work?" ],
+            "responses": ["I am a chatbot created using Artificial Intelligence. Hope so that answers..."]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What is your name?", "May I know your name?", "Who are you?", "What's your name?", "Tell me your name","Tell me about yourself..." ],
+            "responses": ["My name is Sam, I am an AI ChatBot, What can I do for you?"]
+        },
+        {
+            "tag": "fine",
+            "patterns": ["I am fine","I am great","I am doing great","fine","good","great"],
+            "responses": ["That's great! What can I do for you?","That's happy to hear! How can I help you?"]
+        },
+        {
+            "tag": "bad",
+            "patterns": ["I am sad","bad","worse","i am not well"],
+            "responses": ["Sorry about that, Is there anything that I can help you with?"]
+        },
+
+        {
 
             "tag": "Atal Pension Yojana",
             "patterns": [
@@ -74,6 +85,9 @@
             "patterns": [
                 "Central Government Health Scheme",
                 "Health",
+                "Medicine",
+                "Medical",
+                "Healthcare",
                 "Is there any schemes related to Health",
                 "Complete medical care facilities to Government employees (Central) and their family members.The Central Government Health Scheme (CHGS) provides healthcare to the employees and pensioners of the Central Government that are enrolled under this scheme. It covers health care under different systems of medicine, ranging from allopathy and homeopathy to Ayurveda, Unani, Siddha, and Yoga.",
                 "I want to know about Central Government Health Scheme",

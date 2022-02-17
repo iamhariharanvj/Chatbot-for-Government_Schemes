@@ -30,6 +30,5 @@ def get_bot_response():
 
 if __name__ == "__main__":
     webbrowser.open('http://localhost:5000')
-
     app.run(host='localhost')
     
